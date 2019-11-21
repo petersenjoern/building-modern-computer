@@ -10,9 +10,9 @@ Material in shape of powerpoint/pdf can be found here: https://www.nand2tetris.o
 1. Setup:
     - download the nand2tetris software (windows or OS)
     - download the latest java drivers: https://java.com/en/download/win10.jsp
-    - add the tools folder to the Path variable. 
+    - add the tools folder of the nand2tetris software to the Path variable. 
         In windows:  
-        $env:Path += D:\path\to\nand2tetris\tools"
+        $env:Path += "D:\path\to\nand2tetris\tools"
 
 2. The Software tools:
     - the software tools include: hardware simulator, CPU emulator, VM emulator, Assembler, Compiler, Operating system, Text Comparer
