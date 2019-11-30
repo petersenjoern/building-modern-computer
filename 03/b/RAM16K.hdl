@@ -16,6 +16,7 @@ CHIP RAM16K {
 
     PARTS:
     DMux4Way(in=load,sel=address[12..13],a=load0,b=load1,c=load2,d=load3);
+    
     RAM4K(in=in,load=load0,address=address[0..11],out=out0);
     RAM4K(in=in,load=load1,address=address[0..11],out=out1);
     RAM4K(in=in,load=load2,address=address[0..11],out=out2);
