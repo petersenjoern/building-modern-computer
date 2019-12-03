@@ -12,3 +12,9 @@
 // the screen should remain fully clear as long as no key is pressed.
 
 // Put your code here.
+
+set RAM[24576] 0,    // they keyboard in untouched
+repeat 1000000 {
+  ticktock;
+}
+output;              // test that the screen is white
