@@ -1,5 +1,3 @@
-'''Class Lexicon to detect ids, operators, numbers and errors'''
-
 import re
 
 NUM     = 1     # number e.g. '123'
@@ -7,7 +5,9 @@ ID      = 2     # symbol e.g. 'LOOP'
 OP      = 3     # = ; ( ) @ + - & | !
 ERROR   = 4     # error in file
 
-class Lexicon():            
+class Lexicon():      
+    '''Class Lexicon to detect ids, operators, numbers and errors'''
+      
     def __init__(self, file_name):
         file = open(file_name, 'r')
         self._lines = file.read()
