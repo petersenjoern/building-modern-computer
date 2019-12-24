@@ -30,9 +30,11 @@ class Code():
     def comp(self, c):
         return self._comp_codes[c]
     
+    
     _jump_codes = ['', 'JGT', 'JEQ', 'JGE', 'JLT', 'JNE', 'JLE', 'JMP']
     def jump(self, j):
         return self._bits(self._jump_codes.index(j)).zfill(3)
         
+
     def _bits(self, n):
         return bin(int(n))[2:]
