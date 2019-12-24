@@ -4,9 +4,11 @@ class Code():
     def __init__(self):
         pass
     
+    
     def gen_a(self, addr):
         return '0' + self._bits(addr).zfill(15)
-        
+    
+    
     def gen_c(self, dest, comp, jump):
         return '111' + self.comp(comp) + self.dest(dest) + self.jump(jump)
     
