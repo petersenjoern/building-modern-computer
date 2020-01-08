@@ -27,3 +27,5 @@ Material in shape of powerpoint/pdf can be found here: https://www.nand2tetris.o
 4. Execute a script:
     - on windows: open cmd or powershell:
         HardwareSimulator.bat .\path\to\file.tst
+
+# Project code is heavily influenced by havivha@github and xctom@github
